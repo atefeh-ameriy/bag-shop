@@ -1,0 +1,73 @@
+
+.auth-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 7vh;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+  all: unset;    width: 90%;
+
+  border: 1px solid  rgba(154, 153, 153, 0.352);
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+.form-group input::placeholder {
+    color: rgb(129, 129, 129);
+  }
+.sub-btn {
+    all: unset;
+width: 90%;
+  border: 1px solid  rgba(154, 153, 153, 0.352);
+  border-radius: 5px;
+  padding: .5rem 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  background-color: #485128;
+ text-align: center;
+ color: rgb(255, 255, 255);
+}
+
+.sub-btn:hover {
+    background-color: #5f6a38;
+}
+
+.auth-container p {
+    position: relative;
+    top: 20px;
+    text-align: center;   
+     cursor: pointer;
+
+}
+.upin-link{
+    all: unset;
+    color: #5f6a38;
+    padding-right: .5rem;
+    transition: transform .3s ease-in-out;
+}
+.upin-link:hover{
+color: #485128;}
+
+@media only screen and (min-width:1000) {
+ 
+  
+}

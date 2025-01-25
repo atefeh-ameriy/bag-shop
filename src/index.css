@@ -1,0 +1,58 @@
+* {
+
+  margin: 0 ;
+  padding: 0;
+}
+
+html,body,#root,.app,.content{
+  height: 100%;
+   width: 100%;
+   font-family: 'Source Sans Pro', sans-serif;
+ }
+ ul{
+  list-style: none;
+ }
+ 
+ .app{
+   display: flex;
+   position: relative;
+   direction: rtl;
+   width: 100%;
+ }
+
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
+}
+/*calssname at layout */
+.content{
+  height: 100%;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: #6e7a46;
+}
+::-webkit-scrollbar-thumb{
+  width: 5px;
+  height: 2px;
+  background-color: #555f2d;
+  border-radius: 5px;
+}
+.btn{
+  all: unset;
+}
+
+.filterActive{
+  
+  background-color: #0c0a0a;
+  box-shadow: 1px 3px 10px 5px rgba(100, 100, 100, 0.103);
+color: #fff;
+transform: scale(1.1);   
+}

@@ -1,0 +1,99 @@
+.nav-searchbox {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  margin: 0 auto;
+  height: 3.5vh;
+  width: 65vw;
+  padding: 0.5rem;
+  border-radius: 24px;
+}
+.nav-searchbox input {
+  all: unset;
+  width: 100%;
+}
+.nav-searchbox span {
+  position: absolute;
+  left: 6px;
+  top: 12px;
+}
+.search-list {
+  padding: 1rem;
+  padding-top: 4rem;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+}
+.notfoundlist {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  position: relative;
+  top: 20px;
+  border-radius: 20px;   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.16);
+
+
+}
+.show-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;align-items: center;align-content: center;justify-items: center;
+  gap: 2rem;
+}
+.hidelist {
+  display: none;
+}
+.productlist{
+
+  text-decoration: none;
+  color: black;
+}
+.img-listitem{
+  position: relative;
+  height: 60px;width:60px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.175);
+  align-self: center;
+  bottom:10px;
+}
+.plist{
+ padding-right: 1.1rem;
+ white-space: nowrap;
+  }
+  
+
+  @media only screen and (max-width: 760px) {
+
+    .img-listitem{
+      height: 32px;width:32px;
+    
+    }
+    .plist{
+     font-size: 14px;
+     white-space: nowrap;
+      }
+  }
+  @media only screen and (max-width: 380px) {
+    
+    .img-listitem{
+      height: 28px;width:28px;
+    
+    }
+    .plist{
+     font-size: 12px;
+     white-space: nowrap;
+      }
+  }

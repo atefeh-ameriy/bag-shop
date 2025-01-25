@@ -1,0 +1,32 @@
+.filter{
+   padding: 1.5rem;  
+   
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+       
+}
+
+.filter-btn{
+   
+    width: 5rem;height: 2rem;
+    margin-left: 1rem;margin-right: 1rem;
+    border: none;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    border-radius: 5px;margin-top: 1rem;
+    transition: all .4s ease-in-out;
+}
+.filter-btn:hover{
+   
+    background-color: #0c0a0a;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: #fff;
+transform: scale(1.1);
+}
+.filterActive{
+  
+    background-color: #0c0a0a;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;color: #fff;
+transform: scale(1.1);   
+}
+

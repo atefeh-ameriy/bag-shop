@@ -1,0 +1,134 @@
+
+
+/*sidebaaaaaaaaaaaaaar*/
+.sidebar {
+  width: 20rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.296);
+  z-index: 10;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+.ul-sidelist {
+  list-style: none;
+  position: relative;
+  right: 40px;
+}
+.side-logo {
+  background-color: #4e5928;
+  border-radius: 100px 0 100px 0;
+  padding: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+.side-link {
+  margin-top: 5rem;
+}
+.li-sidebar {
+  margin-top: 2rem;
+}
+.li-sidebar span {
+  margin-left: 0.5rem;
+}
+
+.login {
+  all: unset;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 50px;
+  right: 30px;
+  transition: all 0.2s ease-in-out;
+}
+.ha {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  width: 10rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.each-link {
+  text-decoration: none;
+  color: #0a0909;
+  display: flex;
+  justify-content: space-around;
+  /*barae inke text nashkane inkaro krdm with bishtr krdm va.. az white space ham misge use kard*/
+  width: 10rem;
+  /* display: flex;
+  flex-wrap: nowrap;*/
+  white-space: nowrap;
+  transition: 0.3s ease-in-out;
+}
+.each-link > p {
+  padding-right: 0.5rem;
+}
+.active {
+  padding: 0.5rem;
+  background-color: #4e5928;
+  border-radius: 6px;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.expand {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.expandish {
+  background-color: #ffffff;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.296);
+  z-index: 10;
+  position: relative;
+  width: 8rem;
+  transition: all 0.3s ease-in-out;
+}
+.expandish .login {
+  width: 1rem;
+  transition: all 0.8s ease-in-out;
+}
+.expandish .ha > p {
+  display: none;
+}
+.expandish .each-link > p {
+  display: none;
+}
+.expandish .each-link {
+  width: 2rem;
+}
+.expandish span {
+  margin: 0 auto;
+}
+
+.expandish .side-login > p {
+  display: none;
+}
+.loginicon {
+  position: relative;
+  top: 3px;
+}
+
+@media only screen and (max-width: 760px) {
+  .sidebar,
+  .expandish {
+    display: none;
+  }
+  /*.each-link {
+
+    width:2rem;
+  }
+  .each-link span{
+
+    margin: 0 auto;
+  }
+  
+  .each-link p {
+    display: none;
+  }*/
+
+}

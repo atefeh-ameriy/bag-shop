@@ -1,0 +1,66 @@
+/*f card*/
+.bg-for-sjhopping{
+  
+}
+
+.favorite-cart{
+position: relative;
+display: flex;
+padding: 2rem;
+padding-top: 4rem;
+
+justify-content: center;
+gap: 2rem;
+flex-wrap: wrap;
+}
+.favorit-article{
+    background-color: #ffffff;
+display: flex;  
+justify-content: center;
+align-items: center;
+  width: 24vw;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;    padding: 1rem 3rem;
+    border-radius: 6px;
+    gap: 1rem;
+    position: relative;
+    margin-bottom: 3.5rem;
+
+
+}
+.favorit-article .img-item ,p{
+position: relative;
+left: 40px;
+}
+.btn-favorite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 12px;
+}
+.btn-favorite button{
+    padding-bottom: 5px;
+}
+@media only screen and (max-width:920px){
+}
+@media only screen and (max-width:659px){
+ 
+}
+
+.warningfavo{
+position: absolute;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height:69.5vh;
+  width: 100%;
+  
+
+  
+}
+.cart-emtyfavo{
+ top: 10px;
+}
